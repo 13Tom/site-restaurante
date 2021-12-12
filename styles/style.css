@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: auto;
+    height: 0;
+}
+
+header {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+    background-image: url("../img/fundo.jpg");
+    background-size: contain;
+}
+
+header img {
+    width: 100px;
+    clip-path:circle();
+}
+
+header nav {
+    margin-top: 1rem;
+    width: 80%;
+    background-color: #ff6347;
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+header nav ul {
+    list-style: none;
+    padding: 10px;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 5px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+
+}
+/*
+Main
+*/
+.pai{
+    width: 100%;
+    margin: auto;
+    height: 40rem;
+    display: flex;
+
+}
+
+.Boas-vindas{
+ 
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    margin-top: 4.4rem;
+
+}
+.Boas-vindas h1{
+    font-size:26px;
+    color: #f8f4f9;
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.Boas-vindas p {
+    color:#f8f4f9;
+    font-size:20px;
+    font-weight: bold; /*Dar pesso no elemento */
+    text-align: left;
+    padding: 4px
+
+}
+/*Botão*/
+.reserva {
+    border: 2px solid #ffC300;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 2.5rem;
+}
+.reserva h1{
+    font-size: 1.5rem;
+    color: #ffC300;
+    font-weight: 1px;
+}
+.botao{
+    margin-top: 10px;
+    border: 1.5px solid#ffc300 ;
+    font-size: 1.3rem;
+    padding: 5px;
+    background: #333;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Raleway',sans-serif;
+    transition: all 2s linear;
+    
+
+}
+
+.botao:hover,.botao:focus{
+    background: #005C99;
+}
+.botao a{
+    text-decoration: none;
+    color:#ffC300;;
+}
+.cardapio{
+  
+    width:30%;
+    margin: auto;
+    text-align: center;
+    color: #f8f4f9;  
+    margin-bottom: 3rem;
+}
+
+/*
+Lista ORDENADA
+*/
+ol li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+
+}
+
+
+/*------------------MAIN-----------------*/
+main {
+    padding: 30px 0;
+}
+main h1 {
+    text-align: center;
+    font-family: 'Raleway',sans-serif;
+    color: #696e6e;
+}
+
+main div{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+main div figure{
+    margin: 1rem ;
+    border: 1px solid rgb(214, 204, 186);
+}
+main div figure img{
+    width: 13rem;
+    object-fit: contain;
+}
+main div figure figcaption{
+    text-align: center;
+    color:rgb(150, 30, 30);
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/*------------------FOOTER--------------*/
+
+.footer{
+    background:#12171b;
+    color: #7f8489;
+    width: 100%;
+    margin-top: 2.1rem;
+    padding: 20px 0;
+}
+
+.footer .container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.boxes {
+    padding: 50px 0;
+}
+
+.boxes h3 {
+    font-size: 1.6rem;
+    margin-bottom: 25px;
+}
+
+.boxes form {
+    display: flex;
+    flex-direction: column;
+}
+
+.boxes textarea {
+    width: 250px;
+    height: 150px;
+    padding: 10px;
+    background-color: #c0c5c1;
+    margin-bottom: 15px;
+}
+
+.boxes form button {
+    background-color: #ff6347;
+    padding: 10px 15px;
+    border: none;
+    color: #12171b;
+}
+
+.social-media {
+    list-style: none;
+    display: flex;
+}
+
+.social-media li {
+    margin-right: 10px;
+}
+
+.social-media li img {
+    width: 30px;
+    height: 30px;
+}
+
+.contact {
+    align-self: center;
+}
+
+.navegation ul {
+    list-style: none;
+}
+
+.navegation ul li {
+    margin-bottom: 15px;
+}
+
+.navegation ul li a {
+    color: inherit;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
